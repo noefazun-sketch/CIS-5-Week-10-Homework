@@ -9,16 +9,33 @@ void printScores(const int scores[], int n) {
 }
 
 void curve(int scores[], int n, int points) {
-  // TODO: add points to every score
+    for (int i = 0; i < n; i++) {
+        scores[i] += points;
+    }
 }
 
-void minMax(const int scores[], int n, int& lo, int& hi) {
-  // TODO: start lo and hi at scores[0], then check the rest
+void minMax(const int scores[], int n, int& lo, int& hi) {lo = scores[0];
+hi = scores[0];
+
+for (int i = 1; i < n; i++) {
+    if (scores[i] < lo) {
+        lo = scores[i];
+    }
+    if (scores[i] > hi) {
+        hi = scores[i];
+    }
+}
 }
 
 bool findScore(const int scores[], int n, int target, int* where) {
-  // TODO: when scores[i] == target, write i through where
-  //       (only if where != nullptr) and return true
+  for (int i = 0; i < n; i++) {
+    if (scores[i] == target) {
+        if (where != nullptr) {
+            *where = i;
+        }
+        return true;
+    }
+}
   return false;
 }
 
