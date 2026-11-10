@@ -4,7 +4,7 @@
 **Theme:** Change data through a function  
 **Due:** Monday night. This assignment is not due Sunday.
 
-
+ 
 ## Demo video (required)
 
 Paste a link to a short video of you running this assignment (tool + code + run).
@@ -35,7 +35,7 @@ Three small functions that work on one array of scores. Each function receives i
 - Use `const` on array parameters the function only reads
 - README: one sentence for each function saying how its data gets in and out
 
-## Sample session
+## explaining sentences  
 1. The `curve` function receives an array and adds points to each score, changing the original array in `main`.
 
 2. The `minMax` function reads the scores and uses references to update the lowest and highest values in `main`.
