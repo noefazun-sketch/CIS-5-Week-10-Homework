@@ -12,7 +12,7 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Show the run, then explain which variables each function changed and why.
 
-**Your demo:** _add your link here_
+**Your demo:** (https://youtu.be/Lm1MgYNy8ZQ)
 
 
 ## What to build
@@ -36,14 +36,18 @@ Three small functions that work on one array of scores. Each function receives i
 - README: one sentence for each function saying how its data gets in and out
 
 ## Sample session
+1. The `curve` function receives an array and adds points to each score, changing the original array in `main`.
 
+2. The `minMax` function reads the scores and uses references to update the lowest and highest values in `main`.
+
+3. The `findScore` function searches for a score and uses a pointer to save its index if found, then returns true or false.
 ```
 Before: 72 88 95 60 81
 Low: 60  High: 95
 After curve +5: 77 93 100 65 86
 100 found at index 2
 50 not found
-```
+## sentences explaining functions  
 
 ## Starter
 
