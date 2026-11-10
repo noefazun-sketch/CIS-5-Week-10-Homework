@@ -47,7 +47,7 @@ Low: 60  High: 95
 After curve +5: 77 93 100 65 86
 100 found at index 2
 50 not found
-## sentences explaining functions  
+
 
 ## Starter
 
